@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function (req, res) {
   res.render('index.pug');
 });
-
+	
 app.listen(port, function() {
 	console.log('listening on port ' + port);
 });
